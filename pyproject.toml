@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "math-134-notes"
+version = "0.1.0"
+description = "Virtual environment for ma134"
+authors = ["Xiaokang Wang <52538116+Mathheadkang@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+scipy = "^1.15.0"
+numpy-financial = "^1.0.0"
+numpy = "^2.2.1"
+pandas = "^2.2.3"
+matplotlib = "^3.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
