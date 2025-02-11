@@ -12,6 +12,8 @@ numpy-financial = "^1.0.0"
 numpy = "^2.2.1"
 pandas = "^2.2.3"
 matplotlib = "^3.10.0"
+pulp = "^2.9.0"
+networkx = "^3.4.2"
 
 
 [tool.poetry.group.dev.dependencies]
